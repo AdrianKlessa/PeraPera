@@ -20,3 +20,9 @@ Strona zawiera:
   -funkcja zmiany hasła na stronie domowej użytkownika
   
   Od stworzenia tego projektu minęły ok. 4 lata i mam świadomość tego, iż wiele rzeczy zrobiłbym teraz zupełnie inaczej.
+
+  Przykładowe screeny:
+  
+  <img src="https://raw.githubusercontent.com/AdrianKlessa/PeraPera/main/screen1.PNG" width="800" height="800" />
+  
+  <img src="https://raw.githubusercontent.com/AdrianKlessa/PeraPera/main/screen2.PNG" width="800" height="800" />
