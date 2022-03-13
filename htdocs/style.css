@@ -1,0 +1,157 @@
+body{
+
+  background-color: #b1c7ee;
+}
+
+#content{
+  padding: 100px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px;
+  width: 90vw;
+  background-color:white;
+  overflow: auto;
+  overflow-wrap: break-word;
+  min-height: 600px;
+}
+#footer{
+  height: 10vh;
+  margin: auto;
+  padding: 5px;
+  color: white;
+  width: 90vw;
+  background-color: #6495ed;
+  border-radius: 10px;
+  /* background-color: #0C54B2; */
+}
+#menu{
+  height: 10vh;
+  border-radius: 25px;
+  padding: 5px;
+  margin: auto;
+  width: 90vw;
+  background-color: #6495ed;
+}
+
+#logo_main{
+  display:block;
+  margin: auto;
+  width:600px;
+  height:350px;
+
+
+}
+#text_major{
+
+  font-size: 1.4em;
+
+}
+#menu_list{
+
+  list-style-type: none;
+
+  padding: 0;
+
+}
+#menu_list li{
+color:black;
+text-decoration: none;
+display: block;
+padding: 5px;
+float:left;
+border-radius: 25px;
+margin: 10px;
+background-color: #b1c7ee;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+#menu_list li:hover{
+float:left;
+background-color: white;
+}
+
+
+a:visited{
+  color:black;
+  text-decoration: none;
+}
+#padlock{
+  display:block;
+  margin:auto;
+}
+#form_standard{
+  color: red;
+  display: block;
+  width:300px;
+  margin:auto;
+  text-align:center;
+}
+#login_title{
+  text-align:center;
+
+}
+
+/* Formatowanie cytatów dzięki miłym ludziom na StackOverflow, https://stackoverflow.com/questions/16325687/make-big-quotes-with-blockquote*/
+
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+#welcome{
+  text-align: center;
+}
+#school_name{
+  font-weight: bold;
+}
+
+#contact{
+  text-align: center;
+}
+.g-recaptcha>div{
+display:inline-block;
+margin:auto;
+}
+.error{
+  color:red;
+  margin-top:10px;
+
+
+}
+.passchange{
+  background-color:gray;
+
+
+}
